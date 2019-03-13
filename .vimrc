@@ -5,7 +5,11 @@ call vundle#begin()
 filetype off
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
-
+Plugin 'prettier/prettier'
+Plugin 'tpope/vim-commentary'
+Plugin 'mxw/vim-jsx'
+Plugin 'elzr/vim-json'
+Plugin 'easymotion/vim-easymotion'
 call vundle#end()
 
  
