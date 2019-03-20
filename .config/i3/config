@@ -8,7 +8,7 @@
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
-
+exec --no-startup-id blueman-applet
 exec synclient PalmDetect=1
 exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080
 # exec_always --no-startup-id python3 ~/.scripts/i3icons.py
